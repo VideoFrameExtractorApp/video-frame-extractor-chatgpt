@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "video-frame-extractor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Frame-accurate video breakdowns: key frames with exact times, the script and shot list of a TikTok or ad, notes from lecture slides, and frames as JPG, PNG, ZIP or PDF.",
   "author": {
     "name": "Video Frame Extractor",
@@ -9,7 +9,7 @@
     "url": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=made_by"
   },
   "homepage": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=homepage",
-  "repository": "https://github.com/allenmagic8888/video-frame-extractor-chatgpt",
+  "repository": "https://github.com/VideoFrameExtractorApp/video-frame-extractor-chatgpt",
   "license": "MIT",
   "keywords": [
     "video",
@@ -35,7 +35,7 @@
           "Read"
         ],
         "websiteURL": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=listing",
-        "privacyPolicyURL": "https://github.com/allenmagic8888/video-frame-extractor-chatgpt/blob/main/PRIVACY.md",
+        "privacyPolicyURL": "https://github.com/VideoFrameExtractorApp/video-frame-extractor-chatgpt/blob/main/PRIVACY.md",
         "defaultPrompt": [
           "Break down this TikTok: script with times and a shot list for my product.",
           "Notes from this lecture, one section per slide, with times.",

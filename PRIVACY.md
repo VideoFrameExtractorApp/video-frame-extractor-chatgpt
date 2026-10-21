@@ -30,4 +30,4 @@ The plugin is not directed at children under 18.
 
 ## Contact
 
-Questions or concerns: allenmagic888@gmail.com, or open an issue at https://github.com/allenmagic8888/video-frame-extractor-chatgpt/issues
+Questions or concerns: allenmagic888@gmail.com, or open an issue at https://github.com/VideoFrameExtractorApp/video-frame-extractor-chatgpt/issues

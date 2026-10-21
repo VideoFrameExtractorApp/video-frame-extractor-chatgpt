@@ -11,7 +11,7 @@
 
 ## How to install the plugin in ChatGPT
 
-1. **Download** [video-frame-extractor-chatgpt.zip](https://github.com/allenmagic8888/video-frame-extractor-chatgpt/releases/latest/download/video-frame-extractor-chatgpt.zip) (latest release).
+1. **Download** [video-frame-extractor-chatgpt.zip](https://github.com/VideoFrameExtractorApp/video-frame-extractor-chatgpt/releases/latest/download/video-frame-extractor-chatgpt.zip) (latest release).
 2. In ChatGPT open **Plugins**, then **Add** (top right) and **Upload plugin archive**. Choose the ZIP and click **Add plugin**.
 3. Open the **Personal** tab and click **+** next to *Video Frame Extractor* to install it.
 
