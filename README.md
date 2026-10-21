@@ -1,10 +1,32 @@
-# Video Frame Extractor for ChatGPT
+# Video Frame Extractor for ChatGPT: summarize videos, extract frames, get the script of any TikTok
 
-Frame-accurate video breakdowns in ChatGPT: every scene or slide as a key frame with its exact time, every on-screen caption of a TikTok or ad with its time, a shot list for your own version, and frames saved as JPG, PNG, ZIP or PDF.
+**Can ChatGPT watch a video?** With this free plugin it can do it frame by frame. Attach an MP4, MOV or WebM and ChatGPT gets every scene or slide as a key frame with its exact time. It can then summarize the video, turn a lecture into notes, write out the script and shot list of a TikTok or ad, or save frames as JPG, PNG, ZIP or PDF.
 
-**How to call it:** attach a video, type `@Video Frame Extractor` in the message box and ask, for example "break down this TikTok: script and shot list".
+- 🎬 **Scene detection** for slides, screen recordings, phone video, fast TikTok edits and talking heads with graphics
+- ⏱️ **Exact timecodes** on every frame (`0:41`, `1:03.5`), so you can jump straight to the moment
+- 📝 **TikTok, Reels and ad scripts**: every on-screen caption, read every 0.5 s, with a shot list for your own version
+- 📄 **Video to PDF or ZIP**: one frame per slide, a frame every N seconds, or the frame at 1:23
+- 🔒 **Private**: runs inside ChatGPT's own code sandbox; your video is not sent anywhere else
+- 🆓 **Free and open source** (MIT)
 
-Need a video that plays in your browser (YouTube, an online course, a webinar)? See [the Chrome extension](#need-more-the-chrome-extension) below.
+## How to install the plugin in ChatGPT
+
+1. **Download** [video-frame-extractor-chatgpt.zip](https://github.com/allenmagic8888/video-frame-extractor-chatgpt/releases/latest/download/video-frame-extractor-chatgpt.zip) (latest release).
+2. In ChatGPT open **Plugins**, then **Add** (top right) and **Upload plugin archive**. Choose the ZIP and click **Add plugin**.
+3. Open the **Personal** tab and click **+** next to *Video Frame Extractor* to install it.
+
+## How to use it
+
+1. Start a new chat and attach your video.
+2. Type `@Video Frame Extractor` and pick the plugin from the list.
+3. Ask in your own words, for example:
+   - "What is this video about? Short summary with times."
+   - "Break down this TikTok: script, shots and a shot list for my product."
+   - "Make a PDF with one frame for each slide of this lecture."
+
+ChatGPT answers in a minute or two, with times you can click back to and files you can download.
+
+Need frames from a video that only plays in your browser (YouTube, an online course, a webinar)? See [the Chrome extension](#need-more-the-chrome-extension) below.
 
 ## What it does
 
@@ -86,6 +108,29 @@ The same developer makes **Video Frame Extractor** for Chrome, which adds what a
 - 52 languages, no account, no ads, no watermark
 
 [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/video-frame-extractor/mcmdhhpbgmkeggmfhclacdkhbdgohfak?utm_source=chatgpt&utm_medium=plugin&utm_campaign=readme) · [videoframes.app](https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=readme)
+
+## FAQ
+
+**Can ChatGPT watch videos?**
+ChatGPT can read images, not play video. This plugin turns the video into key frames with times, and ChatGPT reads those. For screen recordings, slides and fast edits that is more precise than sampling frames at random.
+
+**How do I extract frames from a video in ChatGPT?**
+Install the plugin, attach the video, mention `@Video Frame Extractor` and ask: "every scene as PNG in a ZIP", "a frame every 5 seconds" or "the frame at 0:42".
+
+**Can it make a script from a TikTok or Reels video?**
+Yes. It reads the burned-in captions every half second and lists each line with its time, next to what each shot shows. Then it gives the structure (hook, problem, solution, proof, call to action) and a shot list for your own version.
+
+**Does it hear the sound?**
+The frames carry no sound. Where ChatGPT can transcribe audio itself, it adds the spoken words next to the frame times. Otherwise it says so and works from what is on screen.
+
+**Is my video uploaded anywhere?**
+No. Everything runs in ChatGPT's code sandbox for your conversation, and the scripts make no network requests.
+
+**Which formats and lengths work?**
+MP4, MOV, WebM, MKV and anything else ffmpeg reads. Videos up to about 7 minutes are processed in one go. Longer videos are handled in parts.
+
+**Is there a version for Claude?**
+Yes: [Video Frame Extractor for Claude](https://github.com/allenmagic8888/video-frame-extractor-claude).
 
 ## Support and privacy
 
