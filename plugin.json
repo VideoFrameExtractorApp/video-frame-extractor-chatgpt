@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "video-frame-extractor",
+  "version": "1.0.0",
+  "description": "Frame-accurate video breakdowns: key frames with exact times, the script and shot list of a TikTok or ad, notes from lecture slides, and frames as JPG, PNG, ZIP or PDF.",
+  "author": {
+    "name": "Video Frame Extractor",
+    "email": "allenmagic888@gmail.com",
+    "url": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=made_by"
+  },
+  "homepage": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=homepage",
+  "repository": "https://github.com/allenmagic8888/video-frame-extractor-chatgpt",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "summarize video",
+    "video to text",
+    "lecture notes",
+    "tiktok script",
+    "shot list",
+    "frames",
+    "scene detection",
+    "screen recording",
+    "pdf"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Video Frame Extractor",
+        "shortDescription": "Watch and break down videos",
+        "longDescription": "Frame-accurate video breakdowns in ChatGPT. Attach a video and mention @Video Frame Extractor. The plugin turns the video into a compact package of key frames with exact times: one frame per scene or slide, every new window in a screen recording, every on-screen caption of a TikTok, Reels or ad read every half second. Use it to get the script and shot list of a short video for your own version, notes from lecture slides, the exact moment something appears, a fast movement frame by frame, or frames saved as JPG, PNG, ZIP or a PDF. Scene detection works for slides, screen recordings, phone video, fast edits and talking-head videos with graphics. Everything runs in ChatGPT's own code sandbox; nothing is uploaded anywhere else.",
+        "developerName": "Video Frame Extractor",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=listing",
+        "privacyPolicyURL": "https://github.com/allenmagic8888/video-frame-extractor-chatgpt/blob/main/PRIVACY.md",
+        "defaultPrompt": [
+          "Break down this TikTok: script with times and a shot list for my product.",
+          "Notes from this lecture, one section per slide, with times.",
+          "Make a PDF with one frame for each slide of this video."
+        ],
+        "brandColor": "#2454DE",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
