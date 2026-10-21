@@ -34,17 +34,3 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://videoframes.app/?utm_source=chatgpt&utm_medium=plugin&utm_campaign=listing",
-        "privacyPolicyURL": "https://github.com/VideoFrameExtractorApp/video-frame-extractor-chatgpt/blob/main/PRIVACY.md",
-        "defaultPrompt": [
-          "Break down this TikTok: script with times and a shot list for my product.",
-          "Notes from this lecture, one section per slide, with times.",
-          "Make a PDF with one frame for each slide of this video."
-        ],
-        "brandColor": "#2454DE",
-        "composerIcon": "./assets/icon.png",
-        "logo": "./assets/logo.png"
-      }
-    }
-  }
-}
